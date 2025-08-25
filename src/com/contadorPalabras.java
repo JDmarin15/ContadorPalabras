@@ -16,8 +16,10 @@ public class contadorPalabras {
 	              counter++;
 	          }
 	     }
+        
 		System.out.println("\nLa cantida de veces que aparece el caracter "+caracater+" en la frase es :"+counter);
-	
+		
+		System.out.print("borrando los caracteres: "+ cadena.replace(caracater,' '));
 
 	 }
 }
